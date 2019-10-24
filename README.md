@@ -3,7 +3,7 @@ C++ implementation of CSV parser
 
 Usage, 
 
-  CSVParser objLixParser;
+  	CSVParser objParser;
 	stCsvParser *csvparser = objParser.MakeNewCSVParserFromStream(_zCSVString.c_str(), ",", 0);
 	stCsvRow *pstCsvRow;
 
@@ -27,5 +27,5 @@ Usage,
 	// check whether we have more than two records
 	if (vecDecodedData.size() >= 2)
 	{
-  // process your own data based on structure.
-  }
+ 	 // process your own data based on structure.
+  	}
